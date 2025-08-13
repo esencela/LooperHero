@@ -121,7 +121,7 @@ public class PlayerController : MonoBehaviour, IRagdoll
 
     void Move()
     {
-        float inputMagnitude = movementInput.magnitude;
+        float inputMagnitude = movementInput.normalized.magnitude;
 
         animator.SetBool("isMoving", false);
 
@@ -135,11 +135,11 @@ public class PlayerController : MonoBehaviour, IRagdoll
 
         if (isSprinting)
         {
-            rb.AddForce(transform.forward * inputMagnitude * runSpeed, ForceMode.Force);
+            rb.AddForce(transform.forward * inputMagnitude * runSpeed, ForceMode.Impulse);
         }
         else
         {
-            rb.AddForce(transform.forward * inputMagnitude * walkSpeed, ForceMode.Force);
+            rb.AddForce(transform.forward * inputMagnitude * walkSpeed, ForceMode.Impulse);
         }
 
         if (inputMagnitude > 0)

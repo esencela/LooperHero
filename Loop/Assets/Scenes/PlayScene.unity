@@ -1019,7 +1019,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.39759666, y: -0.3250761, z: -0.07363369}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -2264,7 +2264,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.00000008940697, y: 2.484124, z: 0.000004404225}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -6336,7 +6336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58308d71b2b87824fa53d615c2e9e194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 350
+  walkSpeed: 7
   lowTurnSpeed: 30
   highTurnSpeed: 60
   rb: {fileID: 160882998}
@@ -6670,7 +6670,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.000000040046874, y: 2.4317546, z: -0.000001847744}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -6928,7 +6928,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.0000008987265, y: 1.4062213, z: -0.000001460314}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -7037,8 +7037,8 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1.3
+  m_Radius: 0.6
+  m_Height: 1.6
   m_Direction: 1
   m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!54 &187960722
@@ -9810,7 +9810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58308d71b2b87824fa53d615c2e9e194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 350
+  walkSpeed: 7
   lowTurnSpeed: 30
   highTurnSpeed: 60
   rb: {fileID: 330269020}
@@ -9921,7 +9921,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.03163855, y: -0.000000034530405, z: 0.0000000010930391, w: 0.9994994}
+  m_LocalRotation: {x: 0.031638555, y: 0.000000034530412, z: -0.0000000010930394,
+    w: 0.9994994}
   m_LocalPosition: {x: 11.5, y: 2.8, z: -38.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14899,7 +14900,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: -0.000002592802, y: 1.3398563, z: -0.00000035762793}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -17626,7 +17627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58308d71b2b87824fa53d615c2e9e194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 350
+  walkSpeed: 7
   lowTurnSpeed: 30
   highTurnSpeed: 60
   rb: {fileID: 572292758}
@@ -18740,7 +18741,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.0000002846559, y: 0.88078415, z: 0.000001105359}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -20439,7 +20440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58308d71b2b87824fa53d615c2e9e194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 350
+  walkSpeed: 7
   lowTurnSpeed: 30
   highTurnSpeed: 60
   rb: {fileID: 668357975}
@@ -23005,7 +23006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58308d71b2b87824fa53d615c2e9e194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 350
+  walkSpeed: 7
   lowTurnSpeed: 30
   highTurnSpeed: 60
   rb: {fileID: 741497792}
@@ -24910,7 +24911,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.00000029802322, y: 0.5853443, z: -0.04652084}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -29392,7 +29393,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: -0.00000028871003, y: 2.4308083, z: -0.0000010710211}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -32454,7 +32455,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.00000007450581, y: 1.3393058, z: -0.0000022649767}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -34608,7 +34609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18acb95947272814d91c8e558f6073cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelTime: 80
+  levelTime: 90
   uiManager: {fileID: 749758251}
   cursor: {fileID: 991877149}
   citizenDeaths: 0
@@ -35180,7 +35181,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012258227}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.03163855, y: -0.000000017064455, z: 5.4016513e-10, w: 0.9994994}
+  m_LocalRotation: {x: 0.031638555, y: 0.000000017465956, z: -5.5287436e-10, w: 0.9994994}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -36544,7 +36545,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.0000012153756, y: 0.72179204, z: -0.00000038743013}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -43971,7 +43972,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.0000002933666, y: 0.68505436, z: 0.0000014938414}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -44731,7 +44732,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: -0.0025520325, y: 1.1730218, z: -0.0055007935}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -45399,7 +45400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58308d71b2b87824fa53d615c2e9e194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 350
+  walkSpeed: 7
   lowTurnSpeed: 30
   highTurnSpeed: 60
   rb: {fileID: 1296769981}
@@ -46483,7 +46484,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: -0.00000057369465, y: 2.4841845, z: 0.0000021774322}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -46655,7 +46656,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: -0.0000019147994, y: 0.72179097, z: -0.00000032782563}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -48569,7 +48570,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1365923030}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0498137, y: 0.0000000021481275, z: -1.0713917e-10, w: 0.99875855}
+  m_LocalRotation: {x: 0.049813703, y: -0.000000002148128, z: 1.07139214e-10, w: 0.99875855}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -49221,7 +49222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58308d71b2b87824fa53d615c2e9e194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 350
+  walkSpeed: 7
   lowTurnSpeed: 30
   highTurnSpeed: 60
   rb: {fileID: 1413376053}
@@ -49727,7 +49728,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.000004217029, y: 1.4049888, z: 0.0000016689303}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -49836,8 +49837,8 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1.3
+  m_Radius: 0.6
+  m_Height: 1.6
   m_Direction: 1
   m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!54 &1442764238
@@ -50474,7 +50475,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.00000028777868, y: 0.782921, z: -0.0000031051077}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -52575,7 +52576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58308d71b2b87824fa53d615c2e9e194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 350
+  walkSpeed: 7
   lowTurnSpeed: 30
   highTurnSpeed: 60
   rb: {fileID: 1567802960}
@@ -52767,13 +52768,13 @@ ConfigurableJoint:
   m_RotationDriveMode: 0
   m_AngularXDrive:
     serializedVersion: 4
-    positionSpring: 100
+    positionSpring: 200
     positionDamper: 0
     maximumForce: 3.4028233e+38
     useAcceleration: 0
   m_AngularYZDrive:
     serializedVersion: 4
-    positionSpring: 100
+    positionSpring: 200
     positionDamper: 0
     maximumForce: 3.4028233e+38
     useAcceleration: 0
@@ -52806,10 +52807,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbc7d549725bbe6499285280dffaeb9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 350
-  runSpeed: 500
+  walkSpeed: 7.4
+  runSpeed: 10.5
   lowTurnSpeed: 30
-  highTurnSpeed: 60
+  highTurnSpeed: 90
   jumpForce: 300
   rb: {fileID: 1580188681}
   isSprinting: 0
@@ -55467,7 +55468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58308d71b2b87824fa53d615c2e9e194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 350
+  walkSpeed: 7
   lowTurnSpeed: 30
   highTurnSpeed: 60
   rb: {fileID: 1659385482}
@@ -55692,10 +55693,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aabc5d5fd5397954fbad4d97bafe2443, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activateTime: 70
+  activateTime: 80
   meteorPrefab: {fileID: 1184226164591022970, guid: fa5f505a99d35b64ebcffc088779c093,
     type: 3}
-  meteorSpawnPoint: {x: 30, y: 90, z: 100}
+  meteorSpawnPoint: {x: 20, y: 90, z: 100}
   explosionPrefab: {fileID: 1753776141928924, guid: 045d5fbbf8161ea478959fe3c8e41207,
     type: 3}
   firePrefab: {fileID: 1557249462179706, guid: e064b74d645658241ac223a448daeb4e, type: 3}
@@ -57188,7 +57189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62d406f8e09029f4eaba980ae888533c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activateTime: 50
+  activateTime: 60
   radius: 4
   force: 400
   explosionPrefab: {fileID: 1248331578108354, guid: fba3984b4d1739047b5b3e699ebda36a,
@@ -60999,7 +61000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58308d71b2b87824fa53d615c2e9e194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 350
+  walkSpeed: 7
   lowTurnSpeed: 30
   highTurnSpeed: 60
   rb: {fileID: 1764277336}
@@ -61650,7 +61651,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785042050}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.013500975, y: 0.000000017204822, z: -2.3230307e-10, w: 0.99990886}
+  m_LocalRotation: {x: 0.013500975, y: 0.000000017204826, z: -2.3230311e-10, w: 0.99990886}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -62846,7 +62847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58308d71b2b87824fa53d615c2e9e194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 350
+  walkSpeed: 7
   lowTurnSpeed: 30
   highTurnSpeed: 60
   rb: {fileID: 1798781982}
@@ -66252,7 +66253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {x: -16.6, y: 0, z: -42}
   startPosition: {x: 0, y: 0, z: 0}
-  activateTime: 25
+  activateTime: 30
   travelTime: 5
   hurtbox: {fileID: 1452313459}
 --- !u!1 &1878346637 stripped
@@ -66587,7 +66588,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: -0.33248875, y: 0.7232887, z: -0.0046700947}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -71424,7 +71425,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.33248928, y: 0.7245268, z: -0.020261329}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -71650,7 +71651,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: 0.0000002903736, y: 0.4231034, z: 0.08318054}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -72102,7 +72103,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  m_ConnectedAnchor: {x: -0.39759606, y: -0.3250761, z: -0.067348905}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0

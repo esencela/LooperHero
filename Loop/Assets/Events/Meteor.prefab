@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79f4ea5cf2badaf41945e619b0fc1b69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallTime: 1.5
+  fallTime: 1.2
   destination: {x: 0, y: 0, z: 0}
   startDestination: {x: 0, y: 0, z: 0}
   hurtbox: {fileID: 8799081989425711914}

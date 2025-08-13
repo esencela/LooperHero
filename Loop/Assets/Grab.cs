@@ -25,6 +25,18 @@ public class Grab : MonoBehaviour
         {
             foreach (FixedJoint joint in connectedJoints)
             {
+                if (!joint)
+                {
+                    Destroy(joint);
+                    continue;
+                }
+                   
+
+                if (joint.transform.root.TryGetComponent<IGrab>(out IGrab grabbable))
+                {
+                    grabbable.Released();
+                }
+
                 Destroy(joint);
             }
         }
@@ -45,10 +57,15 @@ public class Grab : MonoBehaviour
         connectJoint.connectedBody = rb;
         connectJoint.breakForce = breakForce;
         connectedJoints.Add(connectJoint);
+
+        if (other.transform.root.TryGetComponent<IGrab>(out IGrab grabbable))
+        {
+            grabbable.Grabbed();
+        }
     }
 
     private void OnTriggerExit(Collider other)
-    {
+    {        
         if (!colliders.Contains(other))
             return;
 
@@ -56,5 +73,10 @@ public class Grab : MonoBehaviour
             Destroy(joint);
 
         colliders.Remove(other);
+
+        if (other.transform.root.TryGetComponent<IGrab>(out IGrab grabbable))
+        {
+            grabbable.Released();
+        }
     }
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CitizenController : MonoBehaviour, IRagdoll
+public class CitizenController : MonoBehaviour, IRagdoll, IGrab
 {
     public float walkSpeed;
     public float lowTurnSpeed;
@@ -21,6 +21,8 @@ public class CitizenController : MonoBehaviour, IRagdoll
     float maxMoveAngle = 80f;
 
     bool addWeight = false;
+    float initialDrag;
+    float initialWalkSpeed;
 
     public Animator animator;
 
@@ -42,6 +44,8 @@ public class CitizenController : MonoBehaviour, IRagdoll
         turnSpeed = lowTurnSpeed;
         startXPositionSpring = mainJoint.angularXDrive.positionSpring;
         startYZPositionSpring = mainJoint.angularYZDrive.positionSpring;
+        initialDrag = rb.drag;
+        initialWalkSpeed = walkSpeed;
     }
 
     void Update()
@@ -131,7 +135,7 @@ public class CitizenController : MonoBehaviour, IRagdoll
             return;
         }
 
-        rb.AddForce(transform.forward * walkSpeed, ForceMode.Force);
+        rb.AddForce(transform.forward * walkSpeed, ForceMode.Impulse);
 
         animator.SetBool("isMoving", true);
     }
@@ -227,5 +231,17 @@ public class CitizenController : MonoBehaviour, IRagdoll
         {
             ActiveRagdoll();
         }
+    }
+
+    public void Grabbed()
+    {
+        rb.drag = 0.0f;
+        walkSpeed = 0.0f;
+    }
+
+    public void Released()
+    {
+        rb.drag = initialDrag;
+        walkSpeed = initialWalkSpeed;
     }
 }
